@@ -40,7 +40,7 @@
 
   .cut-menu-text{
     width: 100%;
-    padding: 0 50px;
+    padding: 0 35px;
   }
 
   .mt-n50{
@@ -51,7 +51,7 @@
 @media screen and (max-width: 425px) {
   
   .treat,.care{
-    margin: 0 auto;
+   
     margin-top: 10px;
   }
 

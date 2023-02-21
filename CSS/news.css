@@ -1,7 +1,9 @@
 .news{
     background-image: url("../img/tubaki-oil.png");
 }
-
+.br-none{
+    display: none;
+}
 .sp-header{
     display: none;
 }
