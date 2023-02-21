@@ -1,0 +1,139 @@
+
+.menu{
+    background-image: url("../img/hairdresser-goods-02.png");
+}
+
+.menu-main-header{
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 55px;
+    width: 100%;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.cut-menu-wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 202px;
+}
+
+.cut::after{
+    content: "カット";
+    justify-content: flex-end;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+.cut-menu-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cut-menu-header-wrapper{
+    margin-bottom: 100px;
+}
+.cut-menu-text-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+}
+
+.cut-menu-text{
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.set-menu::after{
+    content: "セットメニュー";
+    display: inline;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+
+
+
+.color::after{
+    content: "カラー";
+    display: inline;
+    margin-left: 100px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+
+.perm::after{ 
+    content: "パーマ";
+    display: inline;
+    margin-left: 100px;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+.m-t-n50{
+    margin-top: -50px;
+}
+.straight::after{
+    content: "ストレート";
+    display: inline;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+
+.treatment::after{
+    content: "トリートメント";
+    display: inline;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+
+.m-t-0{
+    margin-top: 0;
+}
+
+.mt-150{
+    margin-top: 150px;
+}
+
+.mt-n50{
+    margin-top: -50px;
+}
+
+.tereat{
+    text-align: left;
+}

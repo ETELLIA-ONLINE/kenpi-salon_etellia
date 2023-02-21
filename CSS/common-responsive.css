@@ -1,0 +1,415 @@
+@media screen and (max-width: 1919px) {
+    .fv-top{
+        padding: 0 100px;
+    }
+
+    .style-belt-wrapper{
+        max-width: 1200px;
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer-left{
+        text-align: center;
+    }
+
+    .footer-left-menu{
+        justify-content: center;
+    }
+
+    .footer-left-header{
+        width: 300px;
+    }
+
+    .footer-left-item{
+        justify-content: center;
+    }
+
+    .footer-info-menu{
+        text-align: center;
+    }
+    
+    .footer-right-header{
+        width: 300px;
+    }
+
+    .footer-right-header::after{
+        right: 0;
+    }
+
+    .footer-right-menu{
+        justify-items: center;
+    }
+
+    .dotw{
+        margin: 0 75px;
+    }
+}
+
+@media screen and (max-width: 1573px) {
+    .fv-top{
+        padding: 0 20px;
+            }
+    .header-wrapper{
+        padding: 0 110px;
+    }
+
+    .info-item{
+        margin-bottom: 48px;
+    }
+
+    .footer-top{
+        flex-wrap:wrap;
+    }
+    .footer-left-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-left-header{
+        margin-bottom: 50px;
+    }
+
+    .footer-right-menu{
+        flex-direction: column;
+    }
+
+    .footer-top{
+        padding: 0;
+    }
+
+    .footer-bottom{
+        height: 100%;
+        padding: 0;
+    }
+    
+    .concept-header-wrapper{
+        margin: 0;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    header {
+        height: 100px;
+    }
+
+    .header-wrapper{
+        padding: 0 55px;
+    }
+}
+
+@media screen and (max-width: 1361px) {
+    .sub-page-top-wrapper{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+
+    .logo-header{
+        font-size: 50px !important;
+    }
+
+
+    .header-menu-item{
+        font-size: 20px;
+    }
+
+    .home{
+        font-size: 20px;
+    }
+	/* 959px以下に適用されるCSS（タブレット用） */
+    .concept-header-wrapper{
+        margin: 61px 0;
+    }
+    
+    .book-btn-text-wrapper{
+        margin-right: 0;
+    }
+    
+    .book-text{
+        font-size: 16px;
+    }
+
+    .book-btn-wrapper{
+        margin-top: 25px;
+    }
+    
+    .book-btn-ul{
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .sp-header{
+        padding-left:50px;
+    }
+    
+    header{
+        height: 100px;
+    }
+
+    .icon{
+        padding: 8px;
+        text-align: center;
+    }
+
+    .button-text{
+        padding: 8px 19px;
+    }
+
+    .logo-header{
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sp-header{
+        display: block;
+    }
+
+    .header-wrapper{
+        display: none;
+    }
+
+    .back-ground-header{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .footer-left{
+        width: 100% 
+    }
+
+    .footer-right{
+        width: 80%;
+    }
+
+    .footer-bottom-left-menu{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .sp-header{
+        display: block;
+    }
+
+    .header-wrapper{
+        display: none;
+    }
+
+    .back-ground-header{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .footer-left{
+        width: 100% 
+    }
+
+    .footer-right{
+        width: 80%;
+    }
+
+    .footer-bottom-left-menu{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .style-belt-wrapper{
+        gap: 30px;
+    }
+    
+    .concept-header-wrapper .accent-line-1{
+        margin-left: 0;
+    } 
+    
+    .background-2{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        bottom: 61px;
+    }
+
+    .background-2 .accent-line-1{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 637px) {
+    .sub-page-top-wrapper{
+        align-items: center;
+    }
+    
+    .footer-left-content-wrapper{
+        flex-direction: column;
+    }
+    
+    .footer-right{
+        width: 100%;
+    }
+    
+    .footer-right-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-right-item{
+        width: 50%;
+        margin-top: 100px;
+    }
+    
+    .right-dotw-wrapper{
+        flex-direction: column;
+    }
+    
+    .right-dotw-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
+    
+
+@media screen and (max-width: 540px) {
+    .sp-header{
+        padding-left: 25px;
+    }
+
+    .logo-header{
+        font-size: 35px !important;
+        
+    }
+
+    .sub-page-header{
+        font-size: 60px;
+    }
+    
+    .access-top, .access-infomation{
+        padding: 0 20px;
+    }
+    
+    .info-text{
+        font-size: 16px;
+    }
+    
+    .access-text{
+        text-align: left;
+    }
+    .back-ground-header{
+        font-size: 40px;
+    }
+    
+    .icon-large{
+        padding: 12px;
+    }
+    
+    .book-btn-text-wrapper{
+        padding: 11px;
+    }
+    .book-text{
+        text-align: left;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    
+    .background-1{
+        height: 380px;
+    }
+    .background-1::after{
+        height: 380px;
+    }
+    
+    .footer-right{
+        justify-content: center;
+    }
+    
+    .footer-right-item{
+        width: 100%;
+    }
+    
+    .footer-right-header::after{
+        right: 30px;
+    }
+    
+    .footer-bottom-left-menu{
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        padding: 50px 0;
+        gap: 20px;
+    }
+    
+    .footer-right{
+        margin-bottom: 30px;
+    }
+    
+    .footer-left-list{
+        margin-bottom: 0px;
+    }
+    
+    .footer-left{
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .footer-right-header{
+        max-width: 300px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .sp-header{
+        padding: 0;
+    }
+
+    .more-btn-text{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sub-page-top-wrapper{
+        margin-top: 0;
+    }
+
+    .logo-header{
+        font-size: 30px !important;   
+    }
+
+    .icon-large{
+        width: 50px;
+        padding: 5px;
+    }
+    
+    .book-text{
+        padding: 0 10px;
+    }
+    
+    .book-btn-text-wrapper{
+        padding: 4px;
+    }
+
+    .dotw{
+        margin: 0 -30px;
+    }
+}

@@ -1,0 +1,122 @@
+.concept{
+    background-image: url("../img/hairdresser-at-hand.png");
+}
+
+.contents-wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.concept-main-wrapper{
+    margin: 100px 0;
+    padding: 0 210px;
+}
+
+.concept-header{
+    text-align: center;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 45px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    margin-bottom: 100px;
+    color: #000000;
+}
+
+.concept-description-wrapper{
+    margin-bottom: 124px;
+}
+
+.concept-desc-wrapper{
+    width: 50%;
+}
+
+.owner-text-2{
+    margin-top: 50px;;
+}
+
+.owner-text-3{
+    margin-top: 50px;;
+}
+
+.owner-name{
+    text-align: right;
+    margin-top: 25px;
+}
+
+.owner-text-1,.owner-text-2,.owner-text-3{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    /* or 206% */
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.concept-desc-1{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+.concept-desc-2{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.concept-desc-3{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-left: 35px;
+}
+
+
+.concept-img-wrapper{
+    width: 600px;
+    height: 400px;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.ml-47{
+    margin-left:47px;
+}
+
+.mr-82{
+    margin-right: 82px;
+}
+.concept-img-wrapper::after{
+    position: absolute;
+    content: "";
+    display: block;
+
+}
+.interior-01{
+    background-image: url("../img/interior-01.png");
+}
+

@@ -1,0 +1,165 @@
+@media screen and (max-width: 1800px) {
+    .news-list-wrapper{
+        padding-left: 0px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .news-wrapper{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .page-selector-ul{
+        right: 0;
+    }
+
+    .news-list{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .news-img{
+        width: 100%;
+        height: 600px;
+        margin-right: 0;
+    }
+
+    .news-content-wrapper{
+        align-items: flex-start !important;
+        margin-top: 100px;
+    }
+
+    .news-card{
+        width: 100%;
+        height: 600px;
+        margin-right: 0;
+    }
+
+    .news-card-inner{
+        width:95%;
+        margin:20px;
+        height: 560px;
+    }
+
+    .news-card-text-container{
+        justify-content: center;
+    }
+    
+    .news-card-header{
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+        padding-left: 0;
+    }
+
+    .date{
+        font-size: 30px;
+    }
+
+    .news-text{
+        font-size: 25px;
+    }
+
+    .sidebar{
+        width: 50%;
+    }
+
+    .sidebar-icon{
+        width: 12%;
+    }
+
+    .page-item{
+        margin-right: 10%;
+    }
+
+    .page-selector-ul{
+        position: static;
+    }
+    .past-page{
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 1361px) {
+    .sp-header{
+        display: block !important;
+    }
+
+    .header-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .news-list-wrapper{
+        width: 80%;;
+    }
+
+    .past-page{
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .page-item{
+        padding-right: 0;
+        margin-right: 20px;
+    }
+
+    .sidebar{
+        width: 80%;
+    }
+
+    .sidebar-header-wrapper{
+        justify-content: center;
+    }
+
+    .news-content-wrapper{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .news-img{
+        height: 300px;
+    }
+
+    .news-content-wrapper{
+        margin-top: 50px;
+    }
+
+    .news-card{
+        height: 300px;
+    }
+
+    .news-card-inner{
+        height: 256px;
+    }
+
+    .date,.news-text{
+        font-size: 20px;
+    }
+    
+    .news-card-header{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sidebar-text-wrapper{
+        width: 76%;
+    }
+    
+    .past-page{
+        margin-right: 5px;
+    }
+
+    .news-card-inner{
+        margin:10px;
+        height: 277px;
+    }
+
+    .page-item{
+        margin-right: 5px;
+    }
+}

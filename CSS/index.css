@@ -1,0 +1,399 @@
+.sp-header{
+display: none;
+}
+
+.style-insta-icon{  
+    justify-content: flex-end;
+    transform: translateX(20px);
+}
+
+/************************* top *************************/
+.top{
+    margin-top: 50px;
+}
+
+.top-wrapper{
+    max-width: 1245px;
+    background-image: url("../img/FV.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-left:105px ;
+}
+
+.top-wrapper::after{
+    content: "";
+    display: block;
+    border: 2px solid #000;
+    position: absolute;
+    height: 645px;
+    max-width: 1245px;
+    width: 100%;
+    left: 20px;
+    top: 20px;
+    margin-left: 105px;
+}
+
+.top-header{
+    font-family: 'Monsieur La Doulaise';
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 134px;
+    letter-spacing: 0.1em;
+    justify-content: flex-end;
+    color: #000000;
+    margin-right: 105px;
+    text-shadow: 2px 2px 1px #F4F2F0
+}
+
+/************************* concept *************************/
+.concept{
+    margin-top: 100px;
+}
+
+.concept-left-wrapper{
+    margin: 0 auto;
+    max-width: 706px;
+    height: 100%;
+    text-align: left;
+}
+
+.concept-left{
+    width: 60%;
+    height: 633px;
+    background-color: #F4F2F0;
+}
+
+.concept-text-1{
+    margin-bottom: 50px;
+}
+
+.concept-right{
+    position: absolute;
+    width: 35%;
+    right: 200px;
+    top: 100px;
+    background-image: url("../img/image-01.png");
+    background-position: center;
+    height: 755px;
+    background-color: #000;
+}
+
+.concept-right::after{
+    content: "";
+    border: 2px solid #000;
+    position: absolute;
+    height: 750px;
+    max-width: 1245px;
+    width: 100%;
+    left: 10px;
+    top: 10px;
+}
+
+.concept-text-wrapper{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/************************* menu *************************/
+.menu{
+    margin-top: 150px;
+}
+
+.menu-left{
+    position: relative;
+    z-index: 10;
+    /* background-color: red; */
+    margin-left: 210px;
+}
+
+.menu-right{
+    margin-top: 200px;
+    align-items: center;
+    height: 760px;
+    width: 70%;
+    background: #F4F2F0;
+}
+
+.pr-230{
+    padding-right: 220px;
+}
+
+.card-item{
+    position: relative;
+    height:380px;
+    width: 530px;
+    transform: translateX(50px);
+    margin-bottom: 75px;
+}
+
+.card-item::after{
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    content: "";
+    display: block;
+    border: 2px solid #000;
+    height: 380px;
+    width: 530px;
+}
+
+.cutting{
+    background-image: url("../img/cutting-01.png");
+}
+
+.cut-place{
+    background-image: url("../img/cut-place.png");
+    transform: translateX(150px);
+}
+
+.interior-02{
+    background-image: url("../img/interior-02.png");
+}
+
+.ml-200{
+    margin-left: 250px;
+}
+
+.menu-list-wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.menu-item{
+    margin-bottom: 50px;
+}
+
+.price-blank{
+    margin-right: 33px;
+}
+
+.menu-price{
+    margin-left: 168px;
+}
+
+.ml-200{
+    margin-left: 200px;
+}
+
+.ml-179{
+    margin-left: 179px;
+}
+
+/************************* styles *************************/
+
+.styles-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.style-item img{
+    display: block;
+}
+
+/************************* news *************************/
+.news-wrapper{
+    margin: 100px 0;
+}
+
+.pl-50{
+    padding-left: 50px;
+}
+
+.news-top-left{
+    width: 30%;
+    height: 200px;
+    background: #fff;
+}
+
+.news-top-right{
+    width: 70%;
+    height: 400px;
+    background-color: #F4F2F0;
+}
+
+.news-card-item{
+    width: 400px;
+    height: 100%;
+    margin-right: 160px;
+    
+}
+
+.news-card-ul{
+    transform: translateY(-150px);
+}
+
+.news-card-top{
+    height: 300px;
+    border: 2px solid;
+}
+.card-inner{
+    height: 260px;
+    margin: 18px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-top:2px solid ; 
+}
+
+.card-inner::after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: -6px;
+    right: 0;
+    width: 80px;
+    height: 10px;
+    background-color: #F4F2F0;
+}
+
+.card-scissors-wrapper{
+    right: 0;
+    top: 20px;
+    font-size: 35px;
+    transform: rotate(135deg);
+}
+
+.news-card-header{
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 55px;
+    letter-spacing: 0.1em;
+    width: 198px;
+    color: #000000;
+}
+
+.news-date-wrapper{
+    padding-top: 16px;
+}
+
+.news-card-date{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+.news-card-label{
+    border: 4px solid #c21500;
+    border-image: linear-gradient(90deg, #78DAB1 0%, #ACDE5C 100%);
+    border-image-slice: 1;
+    padding: 8px 25px;
+    margin-left: 21px;
+}
+
+.news-card-text{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height */
+    margin-top: 16px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+.mt-n70{
+    margin-top: -70px;
+}
+
+.getting-left{
+    width: 55%;
+    height: 600px;
+    background: #F4F2F0;
+}
+
+.getting-right{
+    width: 45%;
+}
+
+.getting-text-wrapper{
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.gettting-text-2{
+    margin-top: 50px;
+}
+
+.getting-text-3{
+    margin-top: 50px;
+}
+
+.getting-right{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+
+.g-right-img-1{
+    background-image: url("../img/hairdresser-01.png");
+    height: 470px;
+    width: 384px;
+    background-size: cover;
+}
+
+.g-right-img-2{
+    background-image: url("../img/hairdresser-goods.png");
+    height: 230px;
+    width: 372px;
+    background-size: cover;
+    margin-left:auto;
+    padding-right: 0px;
+    margin-top: 33px;
+}
+
+.getting-right-img-2{
+    width: 80%;
+    padding-bottom: 100px;
+}
+
+.g-right-border{
+    position: absolute;
+    display: block;
+    left: 10px;
+    top: 10px;
+    border: 2px solid;
+    height: 470px;
+    width: 384px;
+    z-index: 10;
+}
+
+.g-right-border-2{
+    position: absolute;
+    display: block;
+    left: 10px;
+    top: 10px;
+    border: 2px solid;
+    height: 230px;
+    width: 372px;
+    z-index: 10;
+}
+
+.mt-200{
+    margin-top: 220px;
+}
+
+@media screen and (max-width: 369px) {
+    .pr-230{
+        padding-right: 111px;
+    }
+}

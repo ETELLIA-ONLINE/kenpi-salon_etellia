@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Monsieur+La+Doulaise&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/loading.css">
+    <link rel="stylesheet" href="../CSS/component.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/common-responsive.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/index-responsive.css">
+    <title>SALON ETELLIA</title>
+</head>
+<body>
+    <div class="loader-wrap flex fd-colmn">
+        <h2 class="logo-header">Salon ETELLIA</h2>
+        <h1 class="title">
+            <span>N</span>
+            <span>o</span>
+            <span>w</span>
+            <span>&nbsp;</span>
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+        </h1>
+    </div>
+    <header>
+        <div class="header-wrapper flex between fixed">
+            <div class="header-left">
+                <a class="header-link" href="./index.html">
+                    <h2 class="logo-header">Salon ETELLIA</h2>
+                </a>
+            </div>
+            <div class="header-right flex fd-colmn align-center center">
+                <div class="header-right-top flex">
+                    <a class="header-right-button-wrapper flex align-center relative" href="tel:042-111-111">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <p class="button-text">042-111-111</p>
+                    </a>
+                    <a class="header-right-button-wrapper flex align-center relative" href="mailto:jec2017@jeccompany.jp">
+                        <div class="icon"><i class="fa-sharp fa-solid fa-envelope"></i></div>
+                        <p class="button-text">CONTACT</p>
+                    </a>
+                    <a class="instagram-icon flex align-center" href="https://www.instagram.com/" target="_blank">
+                        <img src="../img/Instagram-icon.png" alt="">
+                    </a>
+                </div>
+                <div class="header-right-bottom">
+                    <ul class="header-right-menu flex">
+                        <li class="header-menu-item">
+                            <a class="selected" href="./index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="./concept.html">
+                                Concept
+                            </a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="./menu.html">
+                                Menu
+                            </a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="./news.html">
+                                News
+                            </a>
+                        </li>
+                        <li class="header-menu-item mr-0">
+                            <a class="header-menu-link" href="./access.html">
+                                Access
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="sp-header flex">
+                <div class="logo">
+                    <a class="sp-header-link" href="./index.html">
+                        <h2 class="logo-header"> Salon ETELLIA</h2>
+                    </a>
+                </div>
+                <div class="nav">
+                    <input id="drawer_input" class="drawer_hidden" type="checkbox">
+                    <label for="drawer_input" class="drawer_open"><span></span></label>
+                    <nav class="nav_content">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a class="sp-header-menu-link" href="">Home</a></li>
+                            <li class="nav-item"><a class="sp-header-menu-link" href="">Concept</a></li>
+                            <li class="nav-item"><a class="sp-header-menu-link" href="">Menu</a></li>
+                            <li class="nav-item"><a class="sp-header-menu-link" href="">News</a></li>
+                            <li class="nav-item"><a class="sp-header-menu-link" href="">Access</a></li>
+                            <li class="nav_item">  
+                                <a class="sp-header-right-button-wrapper flex align-center center relative" href="tel:042-111-111">
+                                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                    <p class="button-text white">042-111-111</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a class="sp-header-right-button-wrapper flex align-center center relative" href="mailto:jec2017@jeccompany.jp">
+                                    <div class="icon">
+                                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                                    </div>
+                                    <p class="button-text white">CONTACT</p>
+                                </a>
+                            </li>
+                            <li class="header-menu-item mr-0">
+                                <a class="header-menu-link " href="https://www.instagram.com/" target="_blank">
+                                    <img class="block m0-auto" src="../img/Instagram-icon.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>
+    </header>
+<main>
+    <section class="top relative">
+        <div class="top-wrapper  flex align-end" >
+            <div class="mask"></div>
+            <h2 data-aos="fade-right" data-aos-duration="3000" class="top-header">Close to you, make you beautiful & relaxed.</h2>
+        </div>
+    </section>   
+    <section class="concept">
+        <div class="contents-wrapper flex relative">
+            <div data-aos="fade-right" data-aos-duration="3000" class="concept-left relative">
+                <div class="concept-left-wrapper ">
+                    <div class="concept-header-wrapper">
+                        <h2 class="main-header">Concept</h2>
+                        <span class="accent-line-1"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+                    </div>
+                    <div class="concept-text-wrapper ">
+                        <p class="concept-text-1">「お客様の人生に寄り添う美容室」</p>
+                        <div class="concept-text-wrapper flex fd-colmn align-center center">
+                            <p class="concept-text2">その時だけではなく少し先まで見据えた、一過性ではない施術とサービスをご用意しています。<br>
+                                個人サロンなので、一人のスタイリストが仕上げまで担当させていただきます。</br>
+                                一人ひとりのライフスタイルの合わせて日々のスタイリングが楽になるように、と心を込め、骨格や髪質によってその人にベストなヘアスタイルを提供いたします。</p>
+                        </div>
+                    </div>
+                    <a class="more-btn flex center" href="./concept.html">
+                        <span class="more-btn-text">More <span class="arrow arrow-01"></span></span>
+                    </a>
+                </div>
+            </div>
+            <div  data-aos="fade-down" data-aos-duration="3000" class="concept-right"></div>
+        </div>
+    </section>   
+    <section class="menu flex no-wrap">
+        <div class="menu-left"  data-aos="fade-right" data-aos-duration="3000">
+            <ul class="menu-card-wrapper relative align-center">
+                <li class="card-item cutting"></li>
+                <li class="card-item cut-place"></li>
+                <li class="card-item interior-02"></li>
+            </ul>
+        </div>
+        <div class="menu-right"  data-aos="fade-up" data-aos-duration="3000">
+            <div class="menu-right-wrapper">
+                    <div class="concept-header-wrapper ta-center">
+                        <h2 class="main-header pr-230">Menu</h2>
+                        <span class="accent-line-1 ml-200"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+                    </div>
+                    <div class="menu-list-wrapper">
+                        <ul class="menu-list-ul">
+                                <li class="menu-item flex align-center">
+                                    <div class="menu-item-content-wrapper flex">
+                                        <i class="fa-regular fa-square-check"></i>
+                                        <span class="price-blank"></span>
+                                        <p class="menu-text">Cut + Shampoo</p>
+                                    </div>
+                                        <p class="menu-price">¥4,500</p>
+                                </li>
+                                <li class="menu-item flex align-center">
+                                    <div class="menu-item-content-wrapper flex">
+                                        <i class="fa-regular fa-square-check"></i>
+                                        <span class="price-blank"></span>
+                                        <p class="menu-text">Cut + Treatment</p>
+                                    </div>
+                                        <p class="menu-price">¥7,500</p>
+                                </li>
+                                <li class="menu-item flex align-center">
+                                    <div class="menu-item-content-wrapper flex">
+                                        <i class="fa-regular fa-square-check"></i>
+                                        <span class="price-blank"></span>
+                                        <p class="menu-text">Cut + Color</p>
+                                </div>
+                                    <p class="menu-price ml-200">¥10,500</p>
+                                </li>
+                            <li class="menu-item flex align-center">
+                                <div class="menu-item-content-wrapper flex">
+                                    <i class="fa-regular fa-square-check"></i>
+                                    <span class="price-blank"></span>
+                                    <p class="menu-text">Cut + Perm</p>
+                                </div>
+                                    <p class="menu-price ml-200">¥12,500</p>
+                            </li>
+                            <li class="menu-item flex align-center">
+                                <div class="menu-item-content-wrapper flex">
+                                    <i class="fa-regular fa-square-check"></i>
+                                    <span class="price-blank"></span>
+                                    <p class="menu-text">Cut + Straight</p>
+                                </div>
+                                    <p class="menu-price ml-179">¥19,500</p>
+                            </li>
+                        </ul>
+                    <a class="more-btn flex center" href="./menu.html">
+                        <span class="more-btn-text">More <span class="arrow arrow-01"></span></span>
+                    </a>
+                    </div>
+            </div>
+        </div>
+    </section>   
+    <section class="styles">
+        <div class="concept-header-wrapper ta-center">
+            <h2 class="main-header pr-230">Styles</h2>
+            <span class="accent-line-1 ml-200"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+        </div>
+        <div class="styles-wrapper">
+            <ul class="styles-image-menu flex wrap center">
+                <li class="style-item">
+                    <img src="../img/style5.png" alt="">
+                </li>
+                <li class="style-item">
+                    <img src="../img/style4.png" alt="">
+                </li>
+                <li class="style-item">
+                    <img src="../img/style2.png" alt="">
+                </li>
+                <li class="style-item">
+                    <img src="../img/style6.png" alt="">
+                </li>
+                <li class="style-item">
+                    <img src="../img/style1.png" alt="">
+                </li>
+                <li class="style-item">
+                    <img src="../img/style3.png" alt="">
+                </li>
+            </ul>
+            <a class="more-btn flex m0-auto center" href="">
+                <span class="more-btn-text flex">Instagram <img class="style-insta-icon" src="../img/Instagram-icon.png" alt=""></span></span>
+            </a>
+        </div>
+    </section>   
+    <section class="news">
+        <div class="news-wrapper" >
+            <div class="news-top-wrapper flex relative">
+                <div class="news-top-left" ></div>
+                <div class="news-top-right" >
+                    <div class="concept-header-wrapper pl-50">
+                        <h2 class="main-header">News</h2>
+                        <span class="accent-line-1"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="news-bottom-wrapper">
+                <div class="news-card-wrapper">
+                    <ul class="news-card-ul flex center">
+                        <li class="news-card-item" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="news-card-top">
+                                <img src="../img/hair-oil.png" alt="">
+                            </div>
+                            <div class="news-desc">
+                                <div class="news-date-wrapper flex">
+                                    <div class="news-card-date">2022/06/15</div>
+                                    <label class="news-card-label" for="">新商品</label>
+                                </div>
+                                <p class="news-card-text">xxx xxx 入荷しました</p>
+                            </div>
+                        </li>
+                        <li class="news-card-item" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="news-card-top ">
+                                <div class="card-inner relative flex align-center center">
+                                    <div class=" card-scissors-wrapper absolute">
+                                        <i class="fa-solid fa-scissors scissior-translate"></i>
+                                    </div>
+                                    <h2 class="news-card-header">Salon ETELLIA</h2>
+                                </div>
+                            </div>
+                            <div class="news-desc">
+                                <div class="news-date-wrapper flex">
+                                    <div class="news-card-date">2022/06/15</div>
+                                    <label class="news-card-label" for="">新商品</label>
+                                </div>
+                                <p class="news-card-text">xxx xxx 入荷しました</p>
+                            </div>
+                        </li>
+                        <li class="news-card-item mr-0" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="news-card-top ">
+                                <div class="card-inner relative flex align-center center">
+                                    <div class=" card-scissors-wrapper absolute">
+                                        <i class="fa-solid fa-scissors scissior-translate"></i>
+                                    </div>
+                                    <h2 class="news-card-header">Salon ETELLIA</h2>
+                                </div>
+                                
+                            </div>
+                            <div class="news-desc">
+                                <div class="news-date-wrapper flex align-center">
+                                    <div class="news-card-date">2022/06/15</div>
+                                    <label class="news-card-label" for="">新商品</label>
+                                </div>
+                                <p class="news-card-text">xxx xxx 入荷しました</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="news-btn-wrapper flex center">
+                        <a class="more-btn mt-n70 flex center" href="./news.html">
+                            <span class="more-btn-text">More <span class="arrow arrow-01"></span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <section class="getting">
+        <div class="getting-wrapper flex relative">
+            <div class="getting-left" data-aos="fade-right" data-aos-duration="3000">
+                <div class="getting-desc-wrapper">
+                    <div class="concept-header-wrapper ta-center mt-200">
+                        <h2 class="main-header pr-230">Getting</h2>
+                        <span class="accent-line-1"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+                    </div>
+                    <div class="getting-text-wrapper">
+                        <p class="getting-text-1">Salon ETELLIAの全てのメニューでは、髪の素のキレイさを損なわない、ダメージの抑えられるものを使用します。<br>
+                            それは、手を加えすぎた無理のあるスタイルより、素のキレイさを活かした髪のほうがより美しいと考えるからです。
+                        </p>
+                        <p class="gettting-text-2">また、サロンではよかったけど、家で再現できない…。これじゃご満足いただけないはずです。<br>
+                            お客様のライフスタイルに沿った、お客様の手で再現できるスタイルの提案を心がけています。
+                        </p>
+                        <p class="getting-text-3">技術的な面ではもちろん、お客様のイメージを形にし、髪と一緒に心も軽くなっていただくのが私たちの仕事です。<br>
+                            髪や美容に関する悩みや、ちょっとした要望など、なんでもrelaにご相談下さい。<br>
+                            決して当たり前ではない「貴方のためのサービス」をご用意して、お待ちしています。
+                        </p>
+                    </div>
+                </div>
+                <div class=""></div>
+            </div>
+            <div class="getting-right" data-aos="fade-up" data-aos-duration="3000">
+                <div class="getting-right-img-1">
+                    <div class="g-right-img-1 relative">
+                        <div class="g-right-border"></div>
+                    </div>
+                </div>
+                <div class="getting-right-img-2 relative">
+                    <div class="g-right-img-2 relative">
+                        <div class="g-right-border-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section class="style-belt">
+        <ul class="style-belt-wrapper flex align-center center no-wrap">
+            <li class="style-list">
+                <a href="https://www.instagram.com/">
+                    <img src="../img/Instagram.png" alt="">
+                </a>
+            </li>
+            <li class="style-list">
+                <a href="https://www.instagram.com/">
+                    <img class="style-5" src="../img/style5.png" alt="">
+                </a>
+            </li>
+            <li class="style-list">
+                <a href="https://www.instagram.com/">
+                    <img class="style-4" src="../img/style4.png" alt="">
+                </a>
+            </li>
+            <li class="style-list">
+                <a href="https://www.instagram.com/">
+                    <img class="style-2" src="../img/style2.png" alt="">
+                </a>
+            </li>
+            <li class="style-list ">
+                <a href="https://www.instagram.com/">    
+                    <img class="style-6" src="../img/style6.png" alt="">
+                </a>
+            </li>
+            <li class="style-list">
+                <a href="https://www.instagram.com/">
+                    <img class="style-1" src="../img/style1.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="book">
+            <div class="book-wrapper" >
+                <div class="book-mask">
+                    <div class="concept-header-wrapper ta-center" data-aos="fade-up" data-aos-duration="3000">
+                        <h2 class="main-header ">Book</h2>
+                        <span class="accent-line-1"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+                    </div>
+                    <div class="book-text-wrapper" data-aos="fade-up" data-aos-duration="3000">
+                        <p class="book-text">ご予約はお電話もしくはコンタクトフォームより承っております。<br>
+                            営業時間外でもお伺いできることがありますのでお気軽にお問い合わせください。
+                        </p>
+                    </div>
+                    <div class="book-btn-wrapper">
+                            <ul class="book-btn-ul flex ">
+                                <li class="book-btn-item flex align-center">
+                                    <a class="flex" href="tel:0421111111">
+                                        <div class="icon-large">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </div>
+                                        <div class="book-btn-text-wrapper flex align-center">
+                                            <p class="book-btn-text">042-111-1111</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="book-btn-item flex align-center">
+                                    <a class="flex" href="mailto:jec2017@jeccompany.jp">
+                                        <div class="icon-large">
+                                            <i class="fa-sharp fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="book-btn-text-wrapper flex align-center">
+                                            <p class="book-btn-text">CONTACT</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="book-btn-item flex align-center">
+                                    <a class="flex" href="mailto:jec2017@jeccompany.jp">
+                                    <div class="icon-large">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </div>
+                                    <div class="book-btn-text-wrapper flex align-center mr-0">
+                                        <p class="book-btn-text">INSTAGRAM</p>
+                                    </div>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="background relative">
+                    <div class="background-1" data-aos="fade-right" data-aos-duration="3000"></div>     
+                    <div class="background-2 flex f-end align-center">
+                        <span class="accent-line-1"></span><span class="accent-line-2"></span><span class="accent-line-3"></span>
+                    </div>
+                </div>
+                <h2 class="back-ground-header">Salon ETELLIA</h2>
+    </section>
+    <footer>
+        <div class="footer-top flex no-wrap">
+            <div class="footer-left">
+                <div class="footer-left-menu flex no-wrap">
+                    <div class="footer-left-item">
+                        <p class="footer-left-header">Information</p>
+                    </div>
+                    <div class="footer-left-content-wrapper flex">
+                        <div class="footer-left-item">
+                            <ul class="footer-info-menu">
+                                <li class="footer-info-list">
+                                    <p class="info-address">千葉県松戸市根本450-2</p>
+                                </li>
+                                <li class="footer-info-list">
+                                    <a class="footer-left-access-link" href="tel:042111111">
+                                        <p>TEL：042-111-1111</p>
+                                    </a>
+                                </li>
+                                <li class="footer-info-list">
+                                    <a href="https://www.instagram.com/">    
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-left-item flex no-wrap">
+                            <a class="footer-left-access-link" href="https://www.google.co.jp/maps/place/%E3%80%92271-0077+%E5%8D%83%E8%91%89%E7%9C%8C%E6%9D%BE%E6%88%B8%E5%B8%82%E6%A0%B9%E6%9C%AC%EF%BC%94%EF%BC%95%EF%BC%90%E2%88%92%EF%BC%92+%E7%83%8F%E5%B1%B1%E6%9D%BE%E6%88%B8%E3%83%8F%E3%82%A4%E3%83%84/@35.785992,139.9003696,17z/data=!3m1!4b1!4m6!3m5!1s0x601884fb30f2dd37:0xbe0dba328527688f!8m2!3d35.7859877!4d139.9025583!16s%2Fg%2F11clrq9cf1?hl=ja">
+                                <i class="fa-solid fa-location-dot ml-20"></i><span class="footer-left-blank"></span>
+                                <p>Google Map</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-menu flex no-wrap">
+                    <div class="footer-right-item">
+                        <p class="footer-right-header">Openinghours</p>
+                    </div>
+                    <div class="footer-right-time-wrapper flex fd-colmn no-wrap">
+                        <div class="right-dotw-wrapper flex no-wrap">
+                            <p class="dotw">火<span class="small-dotw">曜日</span>〜水<span class="small-dotw">曜日</span></p>
+                            <p class="time">10:00~19:00</p>
+                        </div>
+                        <div class="right-dotw-wrapper flex no-wrap">
+                            <p class="dotw">日<span class="small-dotw">曜日</span></p>
+                            <p class="time">10:00~19:00</p>
+                        </div>
+                        <div class="right-dotw-wrapper flex mb-0 no-wrap">
+                            <p class="dotw">月<span class="small-dotw">曜日</span></p>
+                            <p class="time">10:00~19:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom ">
+            <div class="footer-bottom-wrapper flex space-around">
+                    <div class="footer-left">
+                        <ul class="footer-bottom-left-menu flex align-center">
+                            <li class="footer-left-list">
+                                <a class="footer-left-link" href="./index.html">
+                                    Home
+                                </a> 
+                            </li>
+                            <li class="footer-left-list">
+                                <a class="footer-left-link" href="./concept.html">
+                                    Concept
+                                </a> 
+                            </li>
+                            <li class="footer-left-list">
+                                <a class="footer-left-link" href="./menu.html">
+                                    Menu
+                                </a> 
+                            </li>
+                            <li class="footer-left-list">
+                                <a class="footer-left-link" href="./news.html">
+                                    News
+                                </a> 
+                            </li>
+                            <li class="footer-left-list">
+                                <a class="footer-left-link" href="./access.html">
+                                    Access
+                                </a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-right flex align-center f-end">
+                        <a class="footer-right-link" href="">Privacy policy</a>
+                    </div>
+            </div>
+        </div>
+        <div class="copy ta-center">
+            <p class="copy-text">&copy; Salon ETELLIA. </p>
+        </div>
+    </footer>
+</main>
+    <script src="https://kit.fontawesome.com/5a7a6a1079.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../JavaScript/loading.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../JavaScript/AOS-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../JavaScript/smooth-scroll-config.js"></script>
+</body>
+</html>

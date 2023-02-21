@@ -1,0 +1,73 @@
+
+/************************* header *************************/
+
+header{
+    max-width: 1920px;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    margin: 0 auto;
+}
+
+.header-right-bottom{
+    margin-top: 30px;
+}
+
+.header-menu-item{
+    position: relative;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    margin-right: 42px;
+    color: #000000;
+}
+.selected{
+    position: relative;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.selected::after{
+    position: absolute;
+    left: 35%;
+    right: 0;
+    content: '';
+    width: 25px;
+    height: 2px;
+    background: linear-gradient(90deg, #78DAB1 0%, #ACDE5C 100%);;
+    bottom: -10px;
+}
+.header-menu-link{
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+.header-menu-link::after {
+    position: absolute;
+    left: 35%;
+    right: 0;
+    content: '';
+    width: 25px;
+    height: 2px;
+    background: linear-gradient(90deg, #78DAB1 0%, #ACDE5C 100%);;
+    bottom: -10px;
+    transform: scale(0, 1);
+    transform-origin: center top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
+    transition: transform 0.3s;   /*変形の時間*/
+    }
+
+.header-menu-link:hover::after {
+    transform: scale(1, 1); /*ホバー後、x軸方向に1（相対値）伸長*/
+}

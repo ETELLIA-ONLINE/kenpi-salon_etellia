@@ -1,0 +1,382 @@
+@media screen and (max-width: 1800px) {
+    .concept-right{
+        right: 147px;
+    }
+    .menu-left{
+        margin-left:80px;
+    }
+}
+
+@media screen and (max-width: 1771px) {
+    .header-wrapper{
+        padding: 0 105px;
+    }
+
+    .getting-right{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1564px) {
+    .header-wrapper{
+        padding: 0 50px;
+    }
+    .top-header{
+        font-size: 70px;
+        margin-right: 0;
+    }
+
+    .concept-right{
+        right: 87px;
+    }
+
+    .news-card-ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-card-item{
+        margin: 50px 0;
+        width: 80%;
+    }
+    .card-inner::after{
+        background-color: #fff;
+    }
+
+    .news-card-top{
+        height: 600px;
+    }
+
+    .card-inner{
+        height: 560px;
+    }
+
+    .news-card-top img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .news-card-item:last-child{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .menu-left{
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width: 1431px) {
+    .menu{
+        flex-direction: column;
+    }
+    .menu-card-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .cut-place{
+        transform: translateX(0) !important;
+    }
+    .card-item{
+        transform: translateX(0) !important;
+        width: 33%;
+        margin-right: 30px;
+        margin-top: 150px;
+    }
+
+    .menu-right{
+        margin-top: 0;
+        width: 100%;
+    }
+    .card-item::after{
+        width: 100%;
+    }
+
+    .getting-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .getting-right,.getting-left{
+        width: 100%;
+    }
+
+    .getting-right{
+        display: flex;
+        justify-content: center;
+    }
+    .getting-right-img-2{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1361px) {
+    .header-wrapper{
+        display: none;
+    }
+    header{
+        height: 100px;
+    }
+    .sp-header{
+        display: block !important;
+    }
+    .top{
+        margin-top: 0;
+    }
+    .logo-header{
+        font-size:40px ;
+    }
+    .top-wrapper{
+        margin-left: 0;
+    }
+
+    .top-wrapper::after{
+        margin-left: 0;
+    }
+
+    .concept .contents-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .concept-header-wrapper{
+        margin: 0 !important;
+    }
+
+    .concept-right{
+        position: relative;
+    }
+
+    .concept-left{
+        width: 100%;
+    }
+
+    .concept-right{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .concept-right{
+        right: 0;
+        top: 0;
+        margin-bottom: 100px;
+    }
+    .concept-right::after{
+        max-width: 1333px;
+    }
+
+    .card-item:last-child{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .top-wrapper::after{
+        left: 0;
+    }
+    
+    .top-header{
+        font-size: 61px;
+    }
+
+    .concept-right{
+        width: 80%;
+        height: 379px;
+
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .concept-right::after{
+        left: 0;
+        height: 379px;
+    }
+
+    .card-item{
+        margin-top: 0px;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 0;
+        margin: 50px 0px;
+    }
+
+    .card-item img{
+        margin-top: 0px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .menu-card-wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-header{
+        font-size: 63px;
+    }
+    
+    .menu-list-wrapper{
+        padding: 0px;
+    }
+
+    .getting-right{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .getting-text-wrapper{
+        padding: 0 10px;
+    }
+    
+    .getting-right-img-2{
+        width: 88%;
+    }
+}
+@media screen and (max-width: 587px) {
+    .top-header{
+        font-size:40px;
+        line-height: 80px;
+    }
+    
+    .accent-line-1{
+        width: 92px;
+    }
+    
+    .news-top-right{
+        height: 300px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .concept-left{
+        padding: 0 20px;
+    }
+
+    .mt-200{
+        display: none;
+    }
+    
+    .concept-header-wrapper{
+        margin-bottom: 60px !important;
+    }
+    
+    .card-item{
+        width: 80%;
+        padding: 0 50px;
+    }
+
+    .card-item:first-child{
+        margin-top: 0;
+    }
+
+    .menu-item{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        
+    }
+    
+    .menu-price{
+        margin: 5px 0;
+    }
+
+    .more-btn{
+        margin: 50px auto;
+    }
+    .menu-list-wrapper .more-btn{
+        margin-top: -30px;
+    }
+
+    .getting-right-img-2{
+        width: 95%;
+    }
+
+    .style-item img{
+        width: 100%;
+    }
+
+    .getting-right-img-1,.getting-right-img-2{
+        width: 100%;
+    }
+
+    .g-right-img-1{
+        width: 100%;
+    }
+
+    .g-right-border,.g-right-border-2{
+        left: 0;
+        width: 100%;
+    }
+    .top-wrapper:after{
+        border: none;
+    }
+
+    .news-card-top{
+        height: 300px;
+    }
+
+    .card-inner{
+        height: 260px;
+    }
+
+    .news-card-item:last-child{
+        margin: 50px 0;
+    }
+
+    .menu-item{
+        margin-left: 40px;
+    }
+    
+    .news-top-left{
+        height: 0;
+    }
+
+    .news-top-right{
+        width: 100%;
+        height: 200px;
+    }
+
+    .news-card-ul{
+        transform: translateY(0);
+    }
+
+    .g-right-img-2{
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    .more-btn{
+        width: 262px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+.arrow{
+    left: 178px;
+}
+
+.logo-header{
+    font-size: 30px;
+}
+
+.top-header{
+    font-size:35px;
+    line-height: 100px;
+}
+
+.accent-line-1{
+    width: 50px;
+}
+
+.pr-230{
+    padding-right: 136px !important;
+}
+
+}
+
+@media screen and (max-width: 328px) {
+    .news-card-label{
+        margin-left: 11px;
+    }
+}
